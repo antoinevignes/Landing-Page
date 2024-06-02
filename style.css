@@ -67,6 +67,7 @@ button {
 .hero-text {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 80px;
   margin: auto 150px;
 }
@@ -77,6 +78,26 @@ img {
   border-radius: 8px;
 }
 
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .image-list {
   display: flex;
+  justify-content: center;
+}
+
+.image img {
+  width: 200px;
+}
+
+h3 {
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  padding-bottom: 30px;
 }
