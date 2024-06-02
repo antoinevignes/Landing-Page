@@ -9,6 +9,10 @@
   list-style-type: none;
 }
 
+body {
+  margin: 0 0;
+}
+
 .logo {
   font-size: 24px;
   color: #f9faf8;
@@ -71,4 +75,8 @@ img {
   width: 500px;
   height: auto;
   border-radius: 8px;
+}
+
+.image-list {
+  display: flex;
 }
