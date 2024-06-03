@@ -55,7 +55,7 @@ body {
   gap: 16px;
 }
 
-button {
+#sign-up-top {
   font-weight: 700;
   color: #f9faf8;
   background-color: #3882f6;
@@ -116,7 +116,22 @@ h3 {
   margin: auto 100px;
 }
 
+#sign-up-bottom {
+  font-weight: 700;
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 8px 25px;
+  border-radius: 5px;
+  border-color: #f9faf8;
+}
+
 .blue-box {
+  color: #f9faf8;
   background-color: #3882f6;
   margin: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 16px 100px;
 }
