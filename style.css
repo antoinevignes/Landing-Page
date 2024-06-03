@@ -135,3 +135,11 @@ h3 {
   border-radius: 5px;
   padding: 16px 100px;
 }
+
+.footer {
+  color: #e5e7eb;
+  background-color: #1f2937;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
