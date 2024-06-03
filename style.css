@@ -78,11 +78,8 @@ img {
   border-radius: 8px;
 }
 
-.image {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.information {
+  margin: 50px auto;
 }
 
 .image-list {
@@ -90,7 +87,7 @@ img {
   justify-content: center;
 }
 
-.image img {
+figure img {
   width: 200px;
 }
 
@@ -99,5 +96,27 @@ h3 {
   color: #1f2937;
   font-size: 36px;
   font-weight: 900;
-  padding-bottom: 30px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px;
+}
+
+#quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  margin: auto 100px;
+}
+
+#author {
+  font-weight: 700;
+  text-align: right;
+  margin: auto 100px;
+}
+
+.blue-box {
+  background-color: #3882f6;
+  margin: 100px;
 }
